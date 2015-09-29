@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE341C611BBA16BA0017E9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE341C601BBA16BA0017E9DE /* AppDelegate.swift */; };
+		BE341C631BBA16BA0017E9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE341C621BBA16BA0017E9DE /* ViewController.swift */; };
+		BE341C661BBA16BA0017E9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE341C641BBA16BA0017E9DE /* Main.storyboard */; };
+		BE341C681BBA16BA0017E9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE341C671BBA16BA0017E9DE /* Assets.xcassets */; };
+		BE341C6B1BBA16BA0017E9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE341C691BBA16BA0017E9DE /* LaunchScreen.storyboard */; };
+		BE341C761BBA16BA0017E9DE /* Wrist_MetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE341C751BBA16BA0017E9DE /* Wrist_MetronomeTests.swift */; };
+		BE341C811BBA16BA0017E9DE /* Wrist_MetronomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE341C801BBA16BA0017E9DE /* Wrist_MetronomeUITests.swift */; };
+		BE341C861BBA16BA0017E9DE /* Wrist Metronome WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BE341C851BBA16BA0017E9DE /* Wrist Metronome WatchKit App.app */; };
+		BE341C8C1BBA16BA0017E9DE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE341C8A1BBA16BA0017E9DE /* Interface.storyboard */; };
+		BE341C8E1BBA16BA0017E9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE341C8D1BBA16BA0017E9DE /* Assets.xcassets */; };
+		BE341C951BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BE341C941BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BE341C9A1BBA16BA0017E9DE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE341C991BBA16BA0017E9DE /* InterfaceController.swift */; };
+		BE341C9C1BBA16BA0017E9DE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE341C9B1BBA16BA0017E9DE /* ExtensionDelegate.swift */; };
+		BE341C9E1BBA16BA0017E9DE /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE341C9D1BBA16BA0017E9DE /* GlanceController.swift */; };
+		BE341CA01BBA16BA0017E9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE341C9F1BBA16BA0017E9DE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE341C721BBA16BA0017E9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE341C551BBA16BA0017E9DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE341C5C1BBA16BA0017E9DE;
+			remoteInfo = "Wrist Metronome";
+		};
+		BE341C7D1BBA16BA0017E9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE341C551BBA16BA0017E9DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE341C5C1BBA16BA0017E9DE;
+			remoteInfo = "Wrist Metronome";
+		};
+		BE341C871BBA16BA0017E9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE341C551BBA16BA0017E9DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE341C841BBA16BA0017E9DE;
+			remoteInfo = "Wrist Metronome WatchKit App";
+		};
+		BE341C961BBA16BA0017E9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE341C551BBA16BA0017E9DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE341C931BBA16BA0017E9DE;
+			remoteInfo = "Wrist Metronome WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE341CA71BBA16BA0017E9DE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BE341C951BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341CAB1BBA16BA0017E9DE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BE341C861BBA16BA0017E9DE /* Wrist Metronome WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE341C5D1BBA16BA0017E9DE /* Wrist Metronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wrist Metronome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE341C601BBA16BA0017E9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE341C621BBA16BA0017E9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE341C651BBA16BA0017E9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE341C671BBA16BA0017E9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE341C6A1BBA16BA0017E9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE341C6C1BBA16BA0017E9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE341C711BBA16BA0017E9DE /* Wrist MetronomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wrist MetronomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE341C751BBA16BA0017E9DE /* Wrist_MetronomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrist_MetronomeTests.swift; sourceTree = "<group>"; };
+		BE341C771BBA16BA0017E9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE341C7C1BBA16BA0017E9DE /* Wrist MetronomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wrist MetronomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE341C801BBA16BA0017E9DE /* Wrist_MetronomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrist_MetronomeUITests.swift; sourceTree = "<group>"; };
+		BE341C821BBA16BA0017E9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE341C851BBA16BA0017E9DE /* Wrist Metronome WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wrist Metronome WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE341C8B1BBA16BA0017E9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BE341C8D1BBA16BA0017E9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE341C8F1BBA16BA0017E9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE341C941BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Wrist Metronome WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE341C991BBA16BA0017E9DE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BE341C9B1BBA16BA0017E9DE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BE341C9D1BBA16BA0017E9DE /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		BE341C9F1BBA16BA0017E9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE341CA11BBA16BA0017E9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE341C5A1BBA16BA0017E9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C6E1BBA16BA0017E9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C791BBA16BA0017E9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C911BBA16BA0017E9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE341C541BBA16BA0017E9DE = {
+			isa = PBXGroup;
+			children = (
+				BE341C5F1BBA16BA0017E9DE /* Wrist Metronome */,
+				BE341C741BBA16BA0017E9DE /* Wrist MetronomeTests */,
+				BE341C7F1BBA16BA0017E9DE /* Wrist MetronomeUITests */,
+				BE341C891BBA16BA0017E9DE /* Wrist Metronome WatchKit App */,
+				BE341C981BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension */,
+				BE341C5E1BBA16BA0017E9DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE341C5E1BBA16BA0017E9DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE341C5D1BBA16BA0017E9DE /* Wrist Metronome.app */,
+				BE341C711BBA16BA0017E9DE /* Wrist MetronomeTests.xctest */,
+				BE341C7C1BBA16BA0017E9DE /* Wrist MetronomeUITests.xctest */,
+				BE341C851BBA16BA0017E9DE /* Wrist Metronome WatchKit App.app */,
+				BE341C941BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE341C5F1BBA16BA0017E9DE /* Wrist Metronome */ = {
+			isa = PBXGroup;
+			children = (
+				BE341C601BBA16BA0017E9DE /* AppDelegate.swift */,
+				BE341C621BBA16BA0017E9DE /* ViewController.swift */,
+				BE341C641BBA16BA0017E9DE /* Main.storyboard */,
+				BE341C671BBA16BA0017E9DE /* Assets.xcassets */,
+				BE341C691BBA16BA0017E9DE /* LaunchScreen.storyboard */,
+				BE341C6C1BBA16BA0017E9DE /* Info.plist */,
+			);
+			path = "Wrist Metronome";
+			sourceTree = "<group>";
+		};
+		BE341C741BBA16BA0017E9DE /* Wrist MetronomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE341C751BBA16BA0017E9DE /* Wrist_MetronomeTests.swift */,
+				BE341C771BBA16BA0017E9DE /* Info.plist */,
+			);
+			path = "Wrist MetronomeTests";
+			sourceTree = "<group>";
+		};
+		BE341C7F1BBA16BA0017E9DE /* Wrist MetronomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE341C801BBA16BA0017E9DE /* Wrist_MetronomeUITests.swift */,
+				BE341C821BBA16BA0017E9DE /* Info.plist */,
+			);
+			path = "Wrist MetronomeUITests";
+			sourceTree = "<group>";
+		};
+		BE341C891BBA16BA0017E9DE /* Wrist Metronome WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BE341C8A1BBA16BA0017E9DE /* Interface.storyboard */,
+				BE341C8D1BBA16BA0017E9DE /* Assets.xcassets */,
+				BE341C8F1BBA16BA0017E9DE /* Info.plist */,
+			);
+			path = "Wrist Metronome WatchKit App";
+			sourceTree = "<group>";
+		};
+		BE341C981BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE341C991BBA16BA0017E9DE /* InterfaceController.swift */,
+				BE341C9B1BBA16BA0017E9DE /* ExtensionDelegate.swift */,
+				BE341C9D1BBA16BA0017E9DE /* GlanceController.swift */,
+				BE341C9F1BBA16BA0017E9DE /* Assets.xcassets */,
+				BE341CA11BBA16BA0017E9DE /* Info.plist */,
+			);
+			path = "Wrist Metronome WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE341C5C1BBA16BA0017E9DE /* Wrist Metronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE341CAC1BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist Metronome" */;
+			buildPhases = (
+				BE341C591BBA16BA0017E9DE /* Sources */,
+				BE341C5A1BBA16BA0017E9DE /* Frameworks */,
+				BE341C5B1BBA16BA0017E9DE /* Resources */,
+				BE341CAB1BBA16BA0017E9DE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE341C881BBA16BA0017E9DE /* PBXTargetDependency */,
+			);
+			name = "Wrist Metronome";
+			productName = "Wrist Metronome";
+			productReference = BE341C5D1BBA16BA0017E9DE /* Wrist Metronome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE341C701BBA16BA0017E9DE /* Wrist MetronomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE341CAF1BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist MetronomeTests" */;
+			buildPhases = (
+				BE341C6D1BBA16BA0017E9DE /* Sources */,
+				BE341C6E1BBA16BA0017E9DE /* Frameworks */,
+				BE341C6F1BBA16BA0017E9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE341C731BBA16BA0017E9DE /* PBXTargetDependency */,
+			);
+			name = "Wrist MetronomeTests";
+			productName = "Wrist MetronomeTests";
+			productReference = BE341C711BBA16BA0017E9DE /* Wrist MetronomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE341C7B1BBA16BA0017E9DE /* Wrist MetronomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE341CB21BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist MetronomeUITests" */;
+			buildPhases = (
+				BE341C781BBA16BA0017E9DE /* Sources */,
+				BE341C791BBA16BA0017E9DE /* Frameworks */,
+				BE341C7A1BBA16BA0017E9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE341C7E1BBA16BA0017E9DE /* PBXTargetDependency */,
+			);
+			name = "Wrist MetronomeUITests";
+			productName = "Wrist MetronomeUITests";
+			productReference = BE341C7C1BBA16BA0017E9DE /* Wrist MetronomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BE341C841BBA16BA0017E9DE /* Wrist Metronome WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE341CA81BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist Metronome WatchKit App" */;
+			buildPhases = (
+				BE341C831BBA16BA0017E9DE /* Resources */,
+				BE341CA71BBA16BA0017E9DE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE341C971BBA16BA0017E9DE /* PBXTargetDependency */,
+			);
+			name = "Wrist Metronome WatchKit App";
+			productName = "Wrist Metronome WatchKit App";
+			productReference = BE341C851BBA16BA0017E9DE /* Wrist Metronome WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BE341C931BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE341CA41BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist Metronome WatchKit Extension" */;
+			buildPhases = (
+				BE341C901BBA16BA0017E9DE /* Sources */,
+				BE341C911BBA16BA0017E9DE /* Frameworks */,
+				BE341C921BBA16BA0017E9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wrist Metronome WatchKit Extension";
+			productName = "Wrist Metronome WatchKit Extension";
+			productReference = BE341C941BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE341C551BBA16BA0017E9DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yangz;
+				TargetAttributes = {
+					BE341C5C1BBA16BA0017E9DE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BE341C701BBA16BA0017E9DE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BE341C5C1BBA16BA0017E9DE;
+					};
+					BE341C7B1BBA16BA0017E9DE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BE341C5C1BBA16BA0017E9DE;
+					};
+					BE341C841BBA16BA0017E9DE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BE341C931BBA16BA0017E9DE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = BE341C581BBA16BA0017E9DE /* Build configuration list for PBXProject "Wrist Metronome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE341C541BBA16BA0017E9DE;
+			productRefGroup = BE341C5E1BBA16BA0017E9DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE341C5C1BBA16BA0017E9DE /* Wrist Metronome */,
+				BE341C701BBA16BA0017E9DE /* Wrist MetronomeTests */,
+				BE341C7B1BBA16BA0017E9DE /* Wrist MetronomeUITests */,
+				BE341C841BBA16BA0017E9DE /* Wrist Metronome WatchKit App */,
+				BE341C931BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE341C5B1BBA16BA0017E9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE341C6B1BBA16BA0017E9DE /* LaunchScreen.storyboard in Resources */,
+				BE341C681BBA16BA0017E9DE /* Assets.xcassets in Resources */,
+				BE341C661BBA16BA0017E9DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C6F1BBA16BA0017E9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C7A1BBA16BA0017E9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C831BBA16BA0017E9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE341C8E1BBA16BA0017E9DE /* Assets.xcassets in Resources */,
+				BE341C8C1BBA16BA0017E9DE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C921BBA16BA0017E9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE341CA01BBA16BA0017E9DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE341C591BBA16BA0017E9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE341C631BBA16BA0017E9DE /* ViewController.swift in Sources */,
+				BE341C611BBA16BA0017E9DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C6D1BBA16BA0017E9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE341C761BBA16BA0017E9DE /* Wrist_MetronomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C781BBA16BA0017E9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE341C811BBA16BA0017E9DE /* Wrist_MetronomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE341C901BBA16BA0017E9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE341C9C1BBA16BA0017E9DE /* ExtensionDelegate.swift in Sources */,
+				BE341C9A1BBA16BA0017E9DE /* InterfaceController.swift in Sources */,
+				BE341C9E1BBA16BA0017E9DE /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE341C731BBA16BA0017E9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE341C5C1BBA16BA0017E9DE /* Wrist Metronome */;
+			targetProxy = BE341C721BBA16BA0017E9DE /* PBXContainerItemProxy */;
+		};
+		BE341C7E1BBA16BA0017E9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE341C5C1BBA16BA0017E9DE /* Wrist Metronome */;
+			targetProxy = BE341C7D1BBA16BA0017E9DE /* PBXContainerItemProxy */;
+		};
+		BE341C881BBA16BA0017E9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE341C841BBA16BA0017E9DE /* Wrist Metronome WatchKit App */;
+			targetProxy = BE341C871BBA16BA0017E9DE /* PBXContainerItemProxy */;
+		};
+		BE341C971BBA16BA0017E9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE341C931BBA16BA0017E9DE /* Wrist Metronome WatchKit Extension */;
+			targetProxy = BE341C961BBA16BA0017E9DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE341C641BBA16BA0017E9DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE341C651BBA16BA0017E9DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE341C691BBA16BA0017E9DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE341C6A1BBA16BA0017E9DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE341C8A1BBA16BA0017E9DE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE341C8B1BBA16BA0017E9DE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE341CA21BBA16BA0017E9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE341CA31BBA16BA0017E9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE341CA51BBA16BA0017E9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wrist Metronome WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-Metronome.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BE341CA61BBA16BA0017E9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wrist Metronome WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-Metronome.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BE341CA91BBA16BA0017E9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Wrist_Metronome_WatchKit_Extension;
+				INFOPLIST_FILE = "Wrist Metronome WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-Metronome.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BE341CAA1BBA16BA0017E9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Wrist_Metronome_WatchKit_Extension;
+				INFOPLIST_FILE = "Wrist Metronome WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-Metronome.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BE341CAD1BBA16BA0017E9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wrist Metronome/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-Metronome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE341CAE1BBA16BA0017E9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wrist Metronome/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-Metronome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE341CB01BBA16BA0017E9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wrist MetronomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-MetronomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrist Metronome.app/Wrist Metronome";
+			};
+			name = Debug;
+		};
+		BE341CB11BBA16BA0017E9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wrist MetronomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-MetronomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrist Metronome.app/Wrist Metronome";
+			};
+			name = Release;
+		};
+		BE341CB31BBA16BA0017E9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wrist MetronomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-MetronomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wrist Metronome";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BE341CB41BBA16BA0017E9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wrist MetronomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangz.Wrist-MetronomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wrist Metronome";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE341C581BBA16BA0017E9DE /* Build configuration list for PBXProject "Wrist Metronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE341CA21BBA16BA0017E9DE /* Debug */,
+				BE341CA31BBA16BA0017E9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE341CA41BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist Metronome WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE341CA51BBA16BA0017E9DE /* Debug */,
+				BE341CA61BBA16BA0017E9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE341CA81BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist Metronome WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE341CA91BBA16BA0017E9DE /* Debug */,
+				BE341CAA1BBA16BA0017E9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE341CAC1BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist Metronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE341CAD1BBA16BA0017E9DE /* Debug */,
+				BE341CAE1BBA16BA0017E9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE341CAF1BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist MetronomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE341CB01BBA16BA0017E9DE /* Debug */,
+				BE341CB11BBA16BA0017E9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE341CB21BBA16BA0017E9DE /* Build configuration list for PBXNativeTarget "Wrist MetronomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE341CB31BBA16BA0017E9DE /* Debug */,
+				BE341CB41BBA16BA0017E9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE341C551BBA16BA0017E9DE /* Project object */;
+}
