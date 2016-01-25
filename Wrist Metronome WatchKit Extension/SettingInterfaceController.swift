@@ -1,8 +1,8 @@
 //
-//  GlanceController.swift
-//  Wrist Metronome WatchKit Extension
+//  SettingInterfaceController.swift
+//  Wrist Metronome
 //
-//  Created by YangZ. on 9/29/15.
+//  Created by YangZ. on 9/30/15.
 //  Copyright © 2015 yangz. All rights reserved.
 //
 
@@ -10,9 +10,10 @@ import WatchKit
 import Foundation
 
 
-class GlanceController: WKInterfaceController {
-    var beatsManager:BeatsManager! = BeatsManager.sharedManager()
-    @IBOutlet var figureLabel: WKInterfaceLabel!
+class SettingInterfaceController: WKInterfaceController {
+    @IBOutlet var beatsButton: WKInterfaceButton!
+    @IBOutlet var intensityButton: WKInterfaceButton!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -22,14 +23,11 @@ class GlanceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
-        figureLabel.setText(String(beatsManager.speed))
-        beatsManager.start()
     }
 
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
-        beatsManager.stop()
     }
 
 }
